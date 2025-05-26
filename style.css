@@ -1,0 +1,129 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+p.a {
+  font-family: "Times New Roman", Times, serif;
+}
+
+img {background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  margin: 20px;
+  width: 650px;
+  overflow: hidden;
+  transition: transform 0.2s;}
+
+header {
+  background-color: #740001;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #d4a017;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+section {
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+section h2 {
+  color: #740001;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+header {
+  background-color: #7b3f00;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.characters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  margin: 15px;
+  width: 250px;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card h2 {
+  font-size: 1.2em;
+  margin: 10px;
+}
+
+.card p {
+  font-size: 0.95em;
+  margin: 0 10px 10px 10px;
+  color: #555;
+}
+.card img {
+  width: 100%;
+  height: auto; /* Adjust height based on image ratio */
+  object-fit: contain; /* Makes sure the whole image fits */
+  object-position: top; /* Optional: ensures head is more visible if cropped */
+  display: block;
+}
+
+body {background-color: #fff7dc;}
+
+<p style="font-family:verdana">
+
